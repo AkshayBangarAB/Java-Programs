@@ -8,7 +8,7 @@ public class Sum_of_first_n_even_number {
         int n = sc.nextInt();
 
         int sum = 0;
-        for (int i=0;i<=n;i++){
+        for (int i=1;i<=n;i++){
             sum = sum+(2*i);
         }
         System.out.println("The sum of 1st n natural number is:"+sum);
